@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!--Add database config here below-->
+
+const firebaseConfig = {
+  apiKey: "AIzaSyB8zEKXi1aUXfJlQRpDm1p76JeE_d2nogo",
+  authDomain: "stuff-fruit-game.firebaseapp.com",
+  databaseURL: "https://stuff-fruit-game-default-rtdb.firebaseio.com",
+  projectId: "stuff-fruit-game",
+  storageBucket: "stuff-fruit-game.appspot.com",
+  messagingSenderId: "707257830795",
+  appId: "1:707257830795:web:8b71ac78df36cc2dec738e"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
